@@ -1,0 +1,145 @@
+.parent {
+    display: flex;
+    justify-content: space-around;
+    background-image: linear-gradient(to bottom, #656d70, #164e65, #76a6b8);
+    color: #0062ff;
+    letter-spacing: 2px;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+    display: inline;
+    margin-right: 100px;
+    transition: all 2.5s;
+    font-size: 25px;
+}
+
+li:hover {
+    color: rgb(255, 255, 255);
+}
+li:focus {
+    color: white;
+    background-color: red;
+}
+.first-circle {
+    width: 40px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 50%;
+    display: inline-block;
+    transition: all 1s;
+}
+
+.first-circle:hover {
+    background-color: black;
+    transform: rotate(360deg);
+}
+
+.fourth-child {
+    background-color: #353432;
+    color: white;
+    text-align: center;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    transition: all 1s;
+}
+
+p {
+    position: relative;
+    bottom: 5px;
+}
+
+.fourth-child:hover {
+    background-color: white;
+    color: black;
+    transform: rotateY(360deg);
+}
+
+i {
+    margin-top: 8px;
+    margin-left: 8px;
+}
+
+.fa-brands {
+    color: #0062ff;
+    font-size: 25px;
+}
+
+h1:hover {
+    color: black;
+}
+body {
+    font-family: system-ui;
+    background-color: #353432;
+    height: 100vh;
+}
+a {
+    text-decoration: none;
+    color: #0062ff;
+}
+.Skills{color: #000000;
+text-align: center;
+opacity: .2;
+position: relative;
+top: 10px;
+font-size: 50px;
+word-spacing: 10px;
+letter-spacing: 10px;}
+.skill{text-align: center;
+margin-top: 50px;
+word-spacing: 7px;
+letter-spacing: 6.5px;}
+.parent-body {
+    height: 130vh;
+    background-image: linear-gradient(to right, #345e9a, #aaaac0, #447188);
+    position: relative;
+    bottom: 41px;}
+    .container{display: flex;
+    justify-content: space-around;
+    transition: all 1s;
+    }
+    .haha{display: flex;
+    justify-content: space-around;}
+    .cont{display: flex;
+    justify-content: space-around;}
+    .square {
+    background-color: transparent;
+    border-color: rgba(255, 255, 255, 0.432) transparent transparent transparent;
+    border-style: solid;
+    border-width: 10px;
+}
+.p1{color: rgba(255, 255, 255, 0.438);
+position: relative;
+right: 10px;}
+.p2{color: rgba(255, 255, 255, 0.438);
+position: relative;
+    right: 20px;}
+.p3{color: rgba(255, 255, 255, 0.438);
+    position: relative;
+    left: 3px;}
+.p4{color: rgba(255, 255, 255, 0.438);
+position: relative;
+    left: 12px;}
+    .Exp{display: flex;
+        justify-content: space-around;
+    margin: 10px;}
+    .first-h{position: relative;
+    right: 20px;
+    bottom: 10px;}
+    .second-h{position: relative;
+    right: 35px;
+    bottom: 10px;}
+    .third-h{position: relative;
+    right: 20px;
+    bottom: 10px;}
+    .fourth-h{position: relative;
+    bottom: 10px;}
+    .gg{border-radius: 10px;
+    border: 2px solid black;
+transition: all 1s;}
+.gg:hover{transform: scale(1.2);}
+.aa {
+    color: white;
+}

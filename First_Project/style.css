@@ -1,0 +1,139 @@
+.parent{display: flex;
+justify-content: space-around;
+background-image: linear-gradient(to bottom,#656d70,#164e65,#76a6b8);
+color: #0062ff;
+letter-spacing: 2px;
+align-items: center;}
+li{list-style: none;
+display: inline;
+margin-right: 100px;
+transition: all 2.5s;
+font-size: 25px;}
+li:hover{color: rgb(255, 255, 255);}
+/* li:hover{color: rgb(255, 255, 255);}
+li:hover{color: rgb(255, 255, 255);}
+li:focus{color: white;
+background-color: red;}  */
+.first-circle{width: 40px;
+height: 40px;
+border: 1px solid white;
+border-radius: 50%;
+display: inline-block;
+transition: all 1s;}
+.first-circle:hover{background-color: black;
+transform: rotate(360deg);}
+.fourth-child{background-color: #353432;
+color: white;
+text-align: center;
+width: 150px;
+height: 40px;
+border-radius: 10px;
+transition: all 1s;}
+p{position: relative;
+bottom: 5px;}
+.fourth-child:hover{background-color: white;
+color: black;
+transform: rotateY(360deg);}
+i{margin-top: 8px;
+margin-left: 8px;}
+.fa-brands{color: #0062ff;
+font-size: 25px;}
+h1:hover{color: black;}
+/* body */
+.parent_body{height: 89.5vh;
+background-image: linear-gradient(to right, #345e9a, #aaaac0, #447188);
+display: flex;
+justify-content: space-around;}
+.body_left{margin: 20px;}
+.top_body_left{width: 300px;
+height: 50px;
+background-image: linear-gradient(to bottom, rgb(70, 20, 161), rgb(25, 134, 177));
+border-radius: 20px;
+text-align: center;
+border: 1px solid black;}
+.hi{position: relative;
+bottom: 10px;
+font-size: 20px;}
+body{font-family: system-ui;
+background-color: #353432;}
+.p{font-size: 30px;}
+.pp{font-size: 15px;}
+.first_span{color: white;}
+.bottom_body_left{width: 150px;
+border-radius: 10px;
+height: 30px;
+background-image: linear-gradient(to bottom, rgb(70, 20, 161), rgb(25, 134, 177));
+text-align: center;
+position: relative;
+top: 4px;
+border: 1px solid white;
+font-size: 20px;}
+.body_right{width: 500px;
+height: 500px;
+background-color: #ffffff;
+overflow: hidden;
+border-radius: 50%;}
+img{position: relative;
+bottom: 120px;
+right: 350px;
+border-radius: 20%;}
+a{text-decoration: none;
+color: #0062ff;}
+.a {
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* .tryy{width: 250px;
+height: 250px;
+background-color: #353432;
+border: 4px solid black;
+border-radius: 50%;
+color: transparent;}
+.tryy:hover{background-color: black;
+border: 4px solid #353432;
+border-radius: 0%;
+color: white;
+text-align: center;}
+.try{width: 100%;
+height: 100%;}
+.try:hover{position: relative;
+top: 100px;} */
+
+
+
+
+
+
+
+/* .element{
+    display: inline;
+    background-color: #0074d9;
+    height: 100px;
+    width: 100px;
+    font-size: 1px;
+    padding: 1px;
+    color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+    animation: roll 3s infinite;
+    transform: rotate(30deg);
+    opacity: .7;
+}
+@keyframes roll {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+} */
